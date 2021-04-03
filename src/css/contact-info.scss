@@ -1,19 +1,23 @@
 .contact-info {
-  place-self: center;
-  width: 6rem;
-  place-content: center;
-  justify-self: center;
   display: grid;
+  display: flex;
+  place-self: center;
+  min-width: 20rem;
+  place-content: center;
+  justify-items: center;
+  justify-self: center;
   grid-template-columns: 1fr;
   margin-right: 0;
   border: 0;
 }
 
 .p-tags {
-  // color: #F4F5DB;
   color: #ffffff;
+  display: flex;
   font-family: 'Open Sans', sans-serif;
   margin-top: 1em;
   margin-bottom: 0;
   place-self: center;
+  min-width: 20rem;
+  place-content: center;
 }
