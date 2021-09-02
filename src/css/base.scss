@@ -7,26 +7,26 @@
   max-width: 3.5em;
 }
 @mixin boxShadow {
-  // box-shadow: 0 0px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee;
   box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee;
 }
 body {
   display: grid;
   height: 100vh;
-}
-.Body {
+  font-family: 'Lato', sans-serif;
   background-image: linear-gradient(to right, grey, #000000bd);
   margin: 0;
   padding: 0;
   place-content: center;
-  // position: absolute;
-  // top: 40%;
-  // left: 50%;
-  // transform: translate(-50%, -50%);
 }
 .line-break {
-  // color: #F4F5DB;
   color: #ffffff;
+}
+.top {
+  height: 100vh; 
+  width: 100vw; 
+  display: flex; 
+  justify-content: center; 
+  flex-direction: column;
 }
 
 @import 'sig-space.scss';
